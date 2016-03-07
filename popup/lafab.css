@@ -1,0 +1,7 @@
+#separateur
+{
+  width: 500px;
+  height: 300px;
+  border: 5px solid black;
+  overflow: hidden;
+}

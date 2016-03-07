@@ -1,0 +1,26 @@
+{
+
+  "description": "Prototype de module pour externaliser les infos de la fabrique a innovations. Ouvre un popup generant un menu dont les sections sont liees aux differentes nouveautes sur le site http://lafabriqueainnovations.com/",
+  "manifest_version": 2,
+  "name": "module_fabrique",
+  "version": "1.0",
+  "homepage_url": "https://github.com/simplon-fabinnov-plugin/fabinnov",
+
+  "applications": {
+    "gecko": {
+      "id": "module_fabrique@simplon.co"
+    }
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "button/ico_gris.png",
+    "default_title": "Module lafab",
+    "default_popup": "popup/lafab.html"
+  },
+
+
+}
