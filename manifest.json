@@ -10,8 +10,8 @@
     }
   },
   "icons": {
-    "48": "images/ico_baseNoNews0.png",
-    "128": "images/ico_baseNoNews1.png"
+    "48": "./images/ico_baseNoNews0.png",
+    "128": "/images/ico_baseNoNews1.png"
   },
 
   "background": {
@@ -27,8 +27,8 @@
 
   "browser_action": {
     "default_icon": {
-      "19": "images/ico_rouge1.png",
-      "38": "images/ico_rouge2.png"
+      "19": "./images/ico_rouge1.png",
+      "38": "./images/ico_rouge2.png"
     },
     "default_title": "Fabrique a innovations",
     "default_popup": "plugfabrique.html"

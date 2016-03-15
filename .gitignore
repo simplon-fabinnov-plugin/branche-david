@@ -1,3 +1,4 @@
+.gitignore
 le-site/
 telechargement
 images/*.xcf
@@ -10,4 +11,3 @@ images/log6-fabinnov-1.xcf
 gulpfile.js
 Fabrique.xpi
 fabrique.xpi
-.gitignore
