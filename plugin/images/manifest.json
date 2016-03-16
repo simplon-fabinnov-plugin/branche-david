@@ -1,0 +1,34 @@
+{
+  "manifest_version": 2,
+  "description": "Prototype de module pour externaliser les infos de la fabrique a innovations. Ouvre un popup generant un menu dont les sections sont liees aux differentes nouveautes sur le site http://lafabriqueainnovations.com/",
+  "name": "module_fabrique",
+  "version": "1.0",
+  "homepage_url": "https://github.com/Simplon-Narbonne/PlugIn_LaFabrique",
+  "applications": {
+    "gecko": {
+      "id": "module_fabrique@simplon.co"
+    }
+  },
+  "icons": {
+    "48": "images/ico_rouge1.png",
+    "128": "images/ico_rouge2.png"
+  },
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+
+  "permissions": [
+    "tabs"
+  ],
+
+  "browser_action": {
+    "default_icon": {
+      "19": "images/ico_baseNoNews0.png",
+      "38": "images/ico_baseNoNews1.png"
+    },
+    "default_title": "Fabrique a innovations",
+    "default_popup": "plugfabrique.html"
+  }
+}
