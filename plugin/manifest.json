@@ -1,36 +1,32 @@
 {
   "manifest_version": 2,
-"description": "Prototype de module pour externaliser les infos de la fabrique a innovations. Ouvre un popup generant un menu dont les sections sont liees aux differentes nouveautes sur le site http://lafabriqueainnovations.com/",
-  "name": "module_fabrique",
+  "name": "firefabrique",
   "version": "1.0",
-  "homepage_url": "https://github.com/Simplon-Narbonne/PlugIn_LaFabrique",
+
+  "description": "Prototype de module pour externaliser les infos de la fabrique a innovations. Ouvre un popup generant un menu dont les sections sont liees aux differentes nouveautes sur la fabrique a innovations",
+
+  "icons": {
+    "48": "images/ico_rouge.png"
+  },
+
   "applications": {
     "gecko": {
-      "id": "module_fabrique@simplon.co"
+      "id": "simplon.iness@mozilla.org",
+      "strict_min_version": "45.0.0"
     }
   },
-  "icons": {
-    "48": "images/ico_rouge.png",
-    "128": "images/ico_rouge.png"
-  },
 
-  "background": {
-    "scripts": [""],
-    "persistent": false
-  },
+  "homepage_url": "https://github.com/Simplon-Narbonne/PlugIn_LaFabrique",
 
   "permissions": [
-    "http://*/*",
-   "https://*/*",
-   "tabs"
+    "tabs"
   ],
 
   "browser_action": {
     "default_icon": {
-      "19": "images/button/ico_baseNoNews0.png",
       "38": "images/button/ico_baseNoNews.png"
     },
     "default_title": "Fabrique",
-    "default_popup": "plugfabrique.html"
+    "default_popup": "popup/plugfabrique.html"
   }
 }
