@@ -3,23 +3,45 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="plugfabrique.css"/>
+    <link rel="stylesheet" href="plugfabrique.css"/> <!-- css du popup -->
   </head>
 
   <body>
-
-    <div id="gxBaseContenu"></div>
-
     <div class="contenu">
-      <p>menu</p>
+      <p>menu</p><!-- contenu du popup-->
     </div>
     <span class="right">
       <ul>
-        <li class="navbtn shopbtn"><a href="#" id="scriptOnglet" class="boutons anim">Rejoindre le site</a></li>
+        <li class="navbtn shopbtn"><a href="#" id="scriptonglet" class="boutons anim">Rejoindre le site</a></li> <!-- bouton vers site-->
       </ul>
     </span>
 
-    <script src="script.js"></script>
+
+<!-- script de l'envoie vers le site avec option onglets ouvert -->
+    <script>
+
+    var element = document.getElementById('scriptonglet');
+
+
+    element.addEventListener('click', function() {
+
+      chrome.tabs.query({'title': 'La Fabrique à Innovations | Donnez vie à vos idées !'}, (tabs) => {
+        if (tabs.length === 0) {
+          // There is no catgif tab!
+          chrome.tabs.create({'url': 'http://lafabriqueainnovations.com/' , 'active': true});
+        } else {
+          // Do something here…
+          chrome.tabs.query({'title': 'La Fabrique à Innovations | Donnez vie à vos idées !', 'active': true}, (active) => {
+            if (active.length === 0) {
+              chrome.tabs.update(tabs[0].id, {'active': true});
+            }
+          });
+        }
+      });
+
+    }, false);
+
+    </script>
 
   </body>
 

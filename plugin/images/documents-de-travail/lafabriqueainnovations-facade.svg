@@ -46,6 +46,16 @@
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4162"
+       id="linearGradient4860"
+       gradientUnits="userSpaceOnUse"
+       x1="191.10379"
+       y1="787.45276"
+       x2="191.10379"
+       y2="815.78882"
+       gradientTransform="matrix(0.29535863,0,0,0.55696201,578.77015,305.21207)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4162"
        id="linearGradient4922"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(0.29535863,0,0,0.55696201,580.08811,370.45095)"
@@ -62,8 +72,13 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.5175"
+<<<<<<< HEAD:plugin/images/documents-de-travail/lafabriqueainnovations-facade.svg
      inkscape:cx="465.32125"
      inkscape:cy="240.19769"
+=======
+     inkscape:cx="430.39538"
+     inkscape:cy="217.79242"
+>>>>>>> parent of fc6a2f1... deplacement de front-end dans popup:images/documents-de-travail/lafabriqueainnovations-facade.svg
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -117,6 +132,7 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
+<<<<<<< HEAD:plugin/images/documents-de-travail/lafabriqueainnovations-facade.svg
        style="fill:#cd0051;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4862"
        width="255.68369"
@@ -126,6 +142,8 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
+=======
+>>>>>>> parent of fc6a2f1... deplacement de front-end dans popup:images/documents-de-travail/lafabriqueainnovations-facade.svg
        y="776.25012"
        x="409.22571"
        height="56.672157"
@@ -276,26 +294,51 @@
          x="417.56699"
          id="tspan4848"
          sodipodi:role="line">Actualités</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4862"
+       width="255.68369"
+       height="56.672157"
+       x="409.22571"
+       y="711.67023" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.16507244px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#df9ac9;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="462.45862"
-       y="745.78479"
+       style="font-style:normal;font-weight:normal;font-size:10.16507244px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="415.67114"
+       y="745.12579"
        id="text4856"
        sodipodi:linespacing="125%"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          id="tspan4858"
-         x="462.45862"
-         y="745.78479">Nouvelle actualité sur un sujet d'actu-</tspan><tspan
+         x="415.67114"
+         y="745.12579">Nouvelle actualité sur un sujet d'actu-</tspan><tspan
          sodipodi:role="line"
-         x="462.45862"
-         y="758.49115"
+         x="415.67114"
+         y="757.83215"
          id="tspan4866">alité chaud et passionnant...</tspan></text>
+    <rect
+       style="fill:url(#linearGradient4860);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4850"
+       width="46.128498"
+       height="22.021563"
+       x="612.05273"
+       y="740.85712" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       style="font-style:normal;font-weight:normal;font-size:13.68516064px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="621.17987"
+       y="757.22522"
+       id="text4852"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4854"
+         x="621.17987"
+         y="757.22522">Voir</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#cd0051;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="415.39243"
        y="727.85938"
        id="text4896"
@@ -319,6 +362,17 @@
          y="791.85938"
          x="415.39243"
          sodipodi:role="line">Nouvelle actualité</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4908"
+       y="757.22522"
+       x="621.17987"
+       style="font-style:normal;font-weight:normal;font-size:13.68516064px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="757.22522"
+         x="621.17987"
+         id="tspan4910"
+         sodipodi:role="line">Voir</tspan></text>
     <rect
        y="806.09601"
        x="613.37067"
@@ -371,12 +425,5 @@
          y="821.83215"
          x="415.67114"
          sodipodi:role="line">alité chaud et passionnant...</tspan></text>
-    <rect
-       style="fill:#df9ac9;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4196"
-       width="23.723228"
-       height="23.723228"
-       x="332.48416"
-       y="787.42639" />
   </g>
 </svg>
